@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="javascript.css">
 </head>
 <body>
-<div class="fråga_div">
+<div  class="fråga_div">
     <p id="fråga">FRÅGA: fråga 1</p>
 </div>
 
@@ -20,6 +20,13 @@
 <div class="resultat_div">
 <p id="resultat">SVAR: Svar 1</p>
 <button type="button" onclick="fråga()">Ny fråga.</button>
+</div>
+
+<div class="nyfråga_div">
+    <h3 id="nyfråga">ny fråga</h3>
+    <label>ange nytt land <input type="text" id="landsvar" size="20"></label>
+    <label>ange ny stad <input type="text" id="stadsvar" size="20"></label>
+    <button type="button" onclick="nyfråga()">lägg till</button>
 </div>
 </body>
 </html>
