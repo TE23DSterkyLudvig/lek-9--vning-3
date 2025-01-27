@@ -31,8 +31,8 @@ let nystad = document.querySelector("#stadsvar");
 
 function nyfråga(){
     let nylandfråga = nyland.value;
-
     let nystadfråga = nystad.value;
+
     städer.push(nystadfråga);
     länder.push(nylandfråga);
 }
